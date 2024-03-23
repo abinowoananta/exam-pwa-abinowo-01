@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 import {
     BREAKPOINTS, COLORS, FONT_FAMILY, FONT_SIZE, LINE_HEIGHT, SPACING, ZINDEX,
-} from './core/theme/vars';
+} from './src/theme/vars';
 
 const plugin = require('tailwindcss/plugin');
 
@@ -55,6 +55,7 @@ module.exports = {
                 md: `0px 2px 4px -1px ${COLORS.neutral[900]}0F, 0px 4px 6px -1px ${COLORS.neutral[900]}1A`,
                 lg: `0px 4px 6px -2px ${COLORS.neutral[900]}0D, 0px 10px 15px -3px ${COLORS.neutral[900]}1A`,
                 xl: `0px 10px 10px -5px ${COLORS.neutral[900]}0A, 0px 20px 25px -5px ${COLORS.neutral[900]}1A`,
+                navbar: '0px 1px 3px 0px rgba(30, 36, 45, 0.18)',
             },
             zIndex: ZINDEX,
             keyframes: {
